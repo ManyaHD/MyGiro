@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    margin: 0px auto;
+}
+
+.Call{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.head1{
+    background-color: #ffa019;
+    width: 40%;
+    margin: 0px 0px 35px 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.head1 p{
+    font-size: 34px;
+}
+
+.head2{
+    background-color: #ffa019;
+    width: 100%;
+    margin: 0px 0px 35px 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.head3{
+    background-color: #ffa019;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.field-vv{
+    border: 2px solid var(--color-3);
+        color: var(--color-4);
+        color: var(--color-3);
+        margin-left: 200px;
+        text-align: center;
+        padding: 40px 15px;
+        padding-right: 200px;
+        font-size: 40px;
+        cursor: pointer;
+}
+.field-vv input{
+   
+    width: 200px;
+    height: 40px;
+    
+   
+}
+.btn{
+    height: 100px;
+    width: 150px;
+    background-color: #fff;
+    font-style: italic;
+}
+    .btn:hover{
+      background-color:greenyellow;
+      height: 100px;
+      width: 150px;
+      font-style: italic;
+    }
+.btn3{
+    height: 100px;
+    width: 150px;
+    background-color: #fff;
+    font-style: italic;
+}
